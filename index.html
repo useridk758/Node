@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Node | Explore</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="background-glow"></div>
+    
+    <nav>
+        <div class="logo">NODE</div>
+        <div class="nav-links">
+            <a href="#">Games</a>
+            <a href="#">Apps</a>
+            <a href="#">Settings</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="hero">
+            <h1 class="glow-text">NODE</h1>
+            <p>Surf the web without limits.</p>
+            
+            <form id="search-form">
+                <div class="search-container">
+                    <i data-lucide="search"></i>
+                    <input type="text" id="url-input" placeholder="Enter a URL or search Google..." autocomplete="off">
+                </div>
+            </form>
+        </section>
+
+        <section class="grid">
+            <div class="card"><i data-lucide="youtube"></i><span>YouTube</span></div>
+            <div class="card"><i data-lucide="message-circle"></i><span>Discord</span></div>
+            <div class="card"><i data-lucide="gamepad-2"></i><span>Games</span></div>
+            <div class="card"><i data-lucide="settings"></i><span>Settings</span></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
